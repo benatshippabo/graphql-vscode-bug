@@ -2,7 +2,15 @@ type Query {
   user(id: String!): User
 }
 
+type Mutation {
+  createUser(input: CreateUserInput!): User
+}
+
 type User {
   id: String!
+  name: String!
+}
+
+input CreateUserInput {
   name: String!
 }
