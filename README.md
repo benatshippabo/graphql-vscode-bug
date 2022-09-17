@@ -1,5 +1,7 @@
 # graphql-vscode-bug
 
+https://github.com/graphql/graphiql/issues/2767
+
 This bug is probably related to defining `graphql-config.load.rootDir` in a different directory than the `schema.graphql` and the schema watcher not firing.
 
 ## Steps to reproduce
